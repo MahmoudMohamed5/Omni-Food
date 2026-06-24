@@ -9,12 +9,42 @@
 body {
     color: #5f574f;
     font-size: 16;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/hero.jpg);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/hero.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-nav li a:hover {
+    color: orange;
+    text-decoration: underline;
 }
