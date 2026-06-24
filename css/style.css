@@ -1,7 +1,20 @@
 /* Global reset to ensure layout consistency across all browsers */
 * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  /* Includes padding/border inside total width/height */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* Includes padding/border inside total width/height */
+}
+
+body {
+    color: #5f574f;
+    font-size: 16;
+    font-family: 'Lato';
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
