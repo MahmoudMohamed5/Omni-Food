@@ -1,0 +1,7 @@
+/* Global reset to ensure layout consistency across all browsers */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* Includes padding/border inside total width/height */
+}
