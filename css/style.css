@@ -75,22 +75,26 @@ header {
     transition: all 0.3s ease;
     margin-right: 20px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: orange;
     color: white;
 }
-section{
+
+section {
     padding: 20px 0px;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 1.7rem;
     text-transform: uppercase;
-      letter-spacing: 2px;
-      word-spacing: 3px;
-      margin-bottom: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
 }
-h2::after{
+
+h2::after {
     content: '';
     width: 100px;
     height: 5px;
@@ -99,8 +103,29 @@ h2::after{
     margin: 30px auto;
     background-color: orange;
 }
-.feature-info{
+
+.feature-info {
     text-align: center;
     width: 60%;
     margin: 20px auto;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.box i {
+    color: orange;
+    font-size: 50px;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+
+.box p {
+    text-align: justify;
+    font-size: 1.2rem;
 }
