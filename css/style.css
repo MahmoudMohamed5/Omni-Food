@@ -150,3 +150,15 @@ h2::after {
     transform: scale(1);
     opacity: 1;
 }
+.works{
+    background-color: #F4F4F4;
+}
+.work{
+    margin-top: 20px;
+}
+.work:first-child{
+    text-align: right;
+}
+.iPhone{
+    width:  40%;
+}
