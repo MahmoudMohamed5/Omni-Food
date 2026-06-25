@@ -146,42 +146,21 @@ h2::after {
   opacity: 0.6;
   transition: 1s;
 }
-.meal img:hover{
-    transform: scale(1);
-    opacity: 1;
+
+.meal img:hover {
+  transform: scale(1);
+  opacity: 1;
 }
-.works{
-    background-color: #F4F4F4;
+
+.works {
+  background-color: #f4f4f4;
 }
-.work{
-    margin-top: 20px;
+
+.work {
+  margin-top: 20px;
 }
-.work:first-child{
-    text-align: right;
+
+.work:first-child {
+  text-align: right;
 }
-.iPhone{
-    width:  40%;
-}
-.step{
-    display: flex;
-    margin-top: 40px;
-    margin-left: 40px;
-}
-.step div{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    border: solid 3px orange;
-    text-align: center;
-    line-height: 44px;
-    color: orange;
-    font-size: 2rem;
-    font-weight: 400;
-    margin-right: 25px;
-}
-.step p{
-    width: 70%;
-    font-size:larger;
-    font-weight: 400;
-    
-}
+
