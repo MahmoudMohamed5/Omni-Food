@@ -207,3 +207,27 @@ h2::after {
   margin-top: 20px;
   height: 50px;
 }
+
+.city img {
+  width: 100%;
+}
+
+.city h3 {
+  text-transform: uppercase;
+  margin: 15px 0px;
+  letter-spacing: 2px;
+}
+
+.city-info {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.city-info i {
+  color: orange;
+  margin-right: 15px;
+}
+
+.city-info a {
+  color: orange;
+}
