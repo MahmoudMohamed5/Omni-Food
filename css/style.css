@@ -79,3 +79,23 @@ header {
     background-color: orange;
     color: white;
 }
+section{
+    padding: 20px 0px;
+}
+h2{
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+      margin-bottom: 20px;
+}
+h2::after{
+    content: '';
+    width: 100px;
+    height: 5px;
+    border: solid 2px orange;
+    display: block;
+    margin: 30px auto;
+    background-color: orange;
+}
