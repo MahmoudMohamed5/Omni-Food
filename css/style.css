@@ -164,3 +164,46 @@ h2::after {
   text-align: right;
 }
 
+.work:last-child {
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+.iPhone {
+  width: 40%;
+}
+
+.step {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.step div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 2px #e78a39;
+  text-align: center;
+  line-height: 46px;
+  font-weight: 300;
+  margin-right: 25px;
+  color: #e78a39;
+  font-size: 2rem;
+}
+
+.step p {
+  font-size: larger;
+  font-weight: 400;
+  width: 70%;
+}
+
+.btn-download {
+  border: 0px;
+  margin-right: 20px;
+}
+
+.btn-download img {
+  margin-top: 20px;
+  height: 50px;
+}
