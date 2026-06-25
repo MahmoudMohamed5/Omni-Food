@@ -1,131 +1,131 @@
 /* Global reset to ensure layout consistency across all browsers */
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    /* Includes padding/border inside total width/height */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* Includes padding/border inside total width/height */
 }
 
 body {
-    color: #5f574f;
-    font-size: 16;
-    font-family: "Lato";
+  color: #5f574f;
+  font-size: 16;
+  font-family: "Lato";
 }
 
 header {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(../images/hero.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .logo {
-    height: 100px;
-    margin-top: 20px;
+  height: 100px;
+  margin-top: 20px;
 }
 
 .main-nav {
-    list-style: none;
-    float: right;
-    margin-top: 55px;
+  list-style: none;
+  float: right;
+  margin-top: 55px;
 }
 
 .main-nav li {
-    display: inline-block;
-    margin-left: 20px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .main-nav li a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .main-nav li a:hover {
-    color: orange;
-    text-decoration: underline;
+  color: orange;
+  text-decoration: underline;
 }
 
 .hero-box {
-    position: absolute;
-    left: 10%;
-    top: 40%;
+  position: absolute;
+  left: 10%;
+  top: 40%;
 }
 
 .hero-box p {
-    color: white;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    word-spacing: 5px;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 
 .btn {
-    color: orange;
-    border: 1px solid orange;
-    display: inline-block;
-    padding: 12px 35px;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-    margin-right: 20px;
+  color: orange;
+  border: 1px solid orange;
+  display: inline-block;
+  padding: 12px 35px;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  margin-right: 20px;
 }
 
 .btn:hover {
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 }
 
 section {
-    padding: 20px 0px;
+  padding: 40px 0px;
 }
 
 h2 {
-    text-align: center;
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin-bottom: 20px;
 }
 
 h2::after {
-    content: '';
-    width: 100px;
-    height: 5px;
-    border: solid 2px orange;
-    display: block;
-    margin: 30px auto;
-    background-color: orange;
+  content: "";
+  width: 100px;
+  height: 5px;
+  border: solid 2px orange;
+  display: block;
+  margin: 30px auto;
+  background-color: orange;
 }
 
 .feature-info {
-    text-align: center;
-    width: 60%;
-    margin: 20px auto;
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
 }
 
 .box {
-    margin-bottom: 10px;
+  margin: 20px 0px;
 }
 
 .box i {
-    color: orange;
-    font-size: 50px;
+  color: orange;
+  font-size: 50px;
 }
 
 .box h3 {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin: 15px 0px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 15px 0px;
 }
 
 .box p {
-    text-align: justify;
-    font-size: 1.2rem;
+  line-height: 30px;
+  font-size: 1.2rem;
 }
