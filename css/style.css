@@ -99,3 +99,8 @@ h2::after{
     margin: 30px auto;
     background-color: orange;
 }
+.feature-info{
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+}
