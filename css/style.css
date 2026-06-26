@@ -258,6 +258,7 @@ h2::after {
   vertical-align: middle;
   margin-right: 20px;
 }
+
 .pricing {
   background-color: #f4f4f4;
 }
@@ -343,4 +344,47 @@ h2::after {
 .card-footer {
   padding: 30px;
   text-align: center;
+}
+
+/* form  */
+label {
+  margin: 10px;
+  font-weight: bold;
+  display: inline-block;
+  color: orange;
+}
+
+input[type="text"],
+[type="email"],
+select,
+textarea {
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: solid 2px orange;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  margin-top: 10px;
+}
+
+/* Filled Orange Button (Premium) */
+.btn-filled {
+  display: inline-block;
+  padding: 12px 35px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  background-color: #e78a39;
+  color: #ffffff;
+  border: 1px solid #e78a39;
+}
+
+.btn-filled:hover {
+  background-color: #cf7529;
+  border-color: #cf7529;
 }
