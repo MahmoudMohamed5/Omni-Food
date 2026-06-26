@@ -13,13 +13,19 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
 
 <body>
     <main>
         <header>
             <div class="container">
-                <img src="images/logo-white.png" class="logo" alt="" />
+                <img src="images/logo-white.png" class="logo wow bounceInUp" data-wow-duration="5s" alt="" />
                 <ul class="main-nav">
                     <li><a href="#features">Food delivery</a></li>
                     <li><a href="#works">How it works</a></li>
@@ -28,7 +34,7 @@
                 </ul>
                 <!-- main-nav -->
 
-                <div class="hero-box">
+                <div class="hero-box wow bounceInRight"  data-wow-duration="5s"  data-wow-delay="2s">
                     <p>
                         Goodbye junk food. <br />
                         Hello super healthy meals.
@@ -391,7 +397,7 @@
                             referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
                     <!-- map -->
-                    <div class="col-6">
+                    <div class="col-6 wow bounceInRight"  data-wow-duration="5s" >
                         <form action="">
                             <div class="row">
                                 <div class="col-4">
