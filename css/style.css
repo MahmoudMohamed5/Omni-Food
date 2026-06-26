@@ -258,3 +258,89 @@ h2::after {
   vertical-align: middle;
   margin-right: 20px;
 }
+.pricing {
+  background-color: #f4f4f4;
+}
+
+.price-card {
+  background-color: #ffffff;
+  flex: 1;
+  min-width: 280px;
+  max-width: 360px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  padding: 30px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.card-header h3 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+.card-header .price {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #e78a39;
+  margin-bottom: 8px;
+}
+
+.card-header .price span {
+  font-size: 3.5rem;
+  /* Large numbers */
+}
+
+.card-header .price-sub {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.card-features {
+  padding: 30px;
+  flex-grow: 1;
+  /* Pushes the buttons perfectly to the bottom */
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.card-features ul {
+  list-style: none;
+}
+
+.card-features li {
+  font-size: 0.95rem;
+  color: #777;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Custom Checkmark (✓) and Cross (✗) Icons using CSS symbols */
+.card-features li.check::before {
+  content: "✓";
+  color: #e78a39;
+  font-weight: bold;
+  margin-right: 15px;
+  font-size: 0.9rem;
+}
+
+.card-features li.cross::before {
+  content: "✕";
+  color: #f1c40f;
+  /* Light amber/yellow color for the 'x' mismatch */
+  opacity: 0.7;
+  margin-right: 15px;
+  font-size: 0.85rem;
+}
+
+.card-footer {
+  padding: 30px;
+  text-align: center;
+}
